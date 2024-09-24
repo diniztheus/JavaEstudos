@@ -1,0 +1,3 @@
+Questao de Autoria Propria, Requisitos :
+
+Crie uma classe Time, que possui um nome e um nomeTecnico. Cada time possui um Tecnico(Classe), que tem um nome e anosExperiencia. O time possui Torcedores que tem nome, jogosAssistidos, sócio e 4 pagamentos. Escreva um programa que crie um time com 5 torcedores e que solicite os pagamentos caso o Torcedor seja sócio. Ao final, vincule um Tecnico ao Time, imprima os Torcedores do time (com as informações de cada um) e imprima se os pagamentos foram realizados (caso sejam sócios).
