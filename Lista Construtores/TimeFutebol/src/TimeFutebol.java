@@ -66,7 +66,7 @@ public class TimeFutebol {
         } else {
             empates++;
         }
-        System.out.println("Partida registrada!");
+        System.out.println("A partida realizada em: " + data + " contra o time: " + adversario + " terminou com o placar: " + getNome() + " " + placarTime + " x " + placarAdversario + " " + adversario);
     }
 
     public void exibirEstatisticas() {
