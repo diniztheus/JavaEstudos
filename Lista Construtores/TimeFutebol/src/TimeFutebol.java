@@ -52,9 +52,9 @@ public class TimeFutebol {
 
     public void registrarPartida(){
         System.out.println("Digite a data da partida: ");
-        String data = sc.nextLine();
+        String data = sc.next();
         System.out.println("Digite o nome do adversario: ");
-        String adversario = sc.nextLine();
+        String adversario = sc.next();
         System.out.println("Digite o placar do: "+ getNome());
         int placarTime = sc.nextInt();
         System.out.println("Digite o placar do: "+ adversario);
