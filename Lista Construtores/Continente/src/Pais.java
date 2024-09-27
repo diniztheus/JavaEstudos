@@ -1,10 +1,10 @@
 public class Pais {
     private String nome;
-    private int populacao;
-    private int dimensao;
+    private double populacao;
+    private double dimensao;
 
 
-    public Pais(String nome, int populacao, int dimensao){
+    public Pais(String nome, double populacao, double dimensao){
         this.nome = nome;
         this.populacao = populacao;
         this.dimensao = dimensao;
@@ -15,14 +15,14 @@ public class Pais {
     public void setNome(String nome) {
         this.nome = nome;
     }
-    public int getPopulacao() {
+    public double getPopulacao() {
         return populacao;
     }
     public void setPopulacao(int populacao) {
         this.populacao = populacao;
     }
 
-    public int getDimensao() {
+    public double getDimensao() {
         return dimensao;
     }
 
