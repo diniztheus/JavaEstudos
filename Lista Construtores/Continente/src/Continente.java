@@ -16,24 +16,14 @@ public class Continente{
 
     public double populacaoCont(){
         for(int i = 0; i < paises.length; i++){
-            if(paises[i] == null){
-                break;
-            }
-            else{
-                populacaoCont += paises[i].getPopulacao();
-            }
+            populacaoCont += paises[i].getPopulacao();
         }
         return populacaoCont;
     }
 
     public double dimensao(){
         for(int i = 0; i < paises.length; i++){
-            if(paises[i] == null){
-                break;
-            }
-            else{
-                dimensao += paises[i].getDimensao();
-            }
+            dimensao += paises[i].getDimensao();
         }
         return dimensao;
     }
@@ -62,10 +52,7 @@ public class Continente{
     public Pais menorPopulacao(){
         Pais menor = paises[0];
         for(int i = 0; i < paises.length; i++){
-            if(paises[i] == null){
-                break;
-            }
-            else if(paises[i].getPopulacao() < menor.getPopulacao()){
+            if(paises[i].getPopulacao() < menor.getPopulacao()){
                 menor = paises[i];
             }
         }
@@ -86,10 +73,7 @@ public class Continente{
     public Pais menorDimensao(){
         Pais menor = paises[0];
         for(int i = 0; i < paises.length; i++){
-            if(paises[i] == null){
-                break;
-            }
-            else if(paises[i].getDimensao() < menor.getDimensao()){
+            if(paises[i].getDimensao() < menor.getDimensao()){
                 menor = paises[i];
             }
         }
