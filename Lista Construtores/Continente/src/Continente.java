@@ -3,10 +3,11 @@ public class Continente{
     private double populacaoCont;
     private double dimensao;
     private double densidade = populacaoCont/dimensao;
-    Pais[] paises = new Pais[14];
+    Pais[] paises;
 
-    public Continente(String nome){
+    public Continente(String nome, int numeroPaises){
         this.nome = nome;
+        paises = new Pais[numeroPaises];
     }
 
     public String getNome() {
