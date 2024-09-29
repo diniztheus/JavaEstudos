@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/Banco/Banco.iml" filepath="$PROJECT_DIR$/Banco/Banco.iml" />
       <module fileurl="file://$PROJECT_DIR$/Lista Construtores/Continente/Continente.iml" filepath="$PROJECT_DIR$/Lista Construtores/Continente/Continente.iml" />
       <module fileurl="file://$PROJECT_DIR$/EscolaNotas/EscolaNotas.iml" filepath="$PROJECT_DIR$/EscolaNotas/EscolaNotas.iml" />
       <module fileurl="file://$PROJECT_DIR$/Lista Construtores/Familia/Familia.iml" filepath="$PROJECT_DIR$/Lista Construtores/Familia/Familia.iml" />
