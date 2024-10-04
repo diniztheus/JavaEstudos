@@ -16,5 +16,7 @@ public class Main {
         System.out.println("Media de vida: " + pokedex.mediaVida());
         pokedex.maiorAtaque();
         pokedex.lutaPokemon(pika, cha);
+        System.out.println("O Pokemon: " + pokedex.curarPokemon(cha).getNome() + " foi curado");
+        pokedex.lutaPokemon(pika, cha);
     }
 }

@@ -76,5 +76,16 @@ public class Pokedex {
         return lutaPokemon(p1, p2);
     }
 
+    public Pokemon curarPokemon(Pokemon pokemon){
+        if(pokemon.getHp() == 100){
+            return pokemon;
+        }
+        pokemon.setHp(pokemon.getHp() + 10);
+        if(pokemon.getHp() > 100){
+            pokemon.setHp(100);
+        }
+        return curarPokemon(pokemon);    
+    }
+
 
 }
