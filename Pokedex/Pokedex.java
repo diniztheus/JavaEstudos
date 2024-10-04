@@ -60,5 +60,21 @@ public class Pokedex {
         System.out.println("Pokemon com maior ataque: " + maiorAtk.getNome() + " com " + maiorAtk.getAtk() + " de ataque.");
     }
 
+    public Pokemon lutaPokemon(Pokemon p1, Pokemon p2){
+        System.out.println(p1.getNome() + " ataca " + p2.getNome());
+        p2.setHp(p2.getHp() - p1.getAtk());
+        if(p2.getHp() <= 0){
+            System.out.println(p2.getNome() + " foi derrotado!");
+            return p1;
+        }
+        System.out.println(p2.getNome() + " ataca " + p1.getNome());
+        p1.setHp(p1.getHp() - p2.getAtk());
+        if(p1.getHp() <= 0){
+            System.out.println(p1.getNome() + " foi derrotado!");
+            return p2;
+        }
+        return lutaPokemon(p1, p2);
+    }
+
 
 }

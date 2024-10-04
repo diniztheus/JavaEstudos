@@ -15,5 +15,6 @@ public class Main {
         System.out.println("Media de ataque: " + pokedex.calcularMediaAtk());
         System.out.println("Media de vida: " + pokedex.mediaVida());
         pokedex.maiorAtaque();
+        pokedex.lutaPokemon(pika, cha);
     }
 }
